@@ -13,6 +13,7 @@
     <router-link to="/about9">About9</router-link> |
     <router-link to="/about10">About10</router-link> |
     <router-link to="/about11">About11</router-link> |
+    <router-link to="/about12">About12</router-link> |
   </nav>
   <router-view/>
 </template>
