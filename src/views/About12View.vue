@@ -1,6 +1,7 @@
 <template>
   <h1>测试Vuex</h1>
   <div>{{ store?.state?.userinfo?.username }}</div>
+  <div>{{ store.state.userinfo.username }}</div>
   <el-button>年龄-{{ age }}</el-button>
   <div><el-button @click="handleMutation">mutation</el-button></div>
   <div><el-button @click="handleAction">action</el-button></div>
